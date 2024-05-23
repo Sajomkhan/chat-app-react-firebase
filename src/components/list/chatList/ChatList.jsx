@@ -6,6 +6,7 @@ const ChatList = () => {
 
   return (
     <div className="chatList">
+        {/* =========== Search ============= */}
       <div className="search">
         <div className="searchBar">
           <img src="./search.png" alt="" />
