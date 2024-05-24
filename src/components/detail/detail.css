@@ -21,7 +21,7 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 
     .option {
       .title {
@@ -82,26 +82,31 @@
       }
     }
 
-    button {
-      padding: 10px 20px;
-      background-color: rgba(230, 73, 105, 0.553);
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      margin-bottom: 20px;
+    .button_div {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
 
-      &:hover {
-        background-color: rgba(197, 56, 84, 0.553);
+      button {
+        padding: 10px 20px;
+        background-color: rgba(230, 73, 105, 0.553);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: rgba(197, 56, 84, 0.553);
+        }
       }
-    }
 
-    .logout {
-      padding: 10px;
-      background-color: #1a73e8;
+      .logout {
+        padding: 10px;
+        background-color: #1a73e8;
 
-      &:hover {
-        background-color: #1561c4;
+        &:hover {
+          background-color: #1561c4;
+        }
       }
     }
   }
